@@ -1,0 +1,14 @@
+@echo off
+echo =======================================
+echo   CSCI262 - Password Similarity Checker
+echo =======================================
+echo.
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Starting web server...
+echo Open http://localhost:5000 in your browser.
+echo Press Ctrl+C to stop.
+echo.
+python app.py
+pause
